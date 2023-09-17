@@ -9,6 +9,7 @@
   /* align-items: ; */
   justify-content: space-between !important;
   margin-bottom: 0.5rem;
+  cursor: move;
 }
 .bottomwrapper {
   display: flex;
