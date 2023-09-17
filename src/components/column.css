@@ -1,0 +1,68 @@
+.column {
+  background-color: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: #ffffff;
+  width: 33%;
+  max-width: 20rem;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+.titlewrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titlewrapper button {
+  all: unset;
+  color: black;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.titlewrapper button:hover {
+  background-color: var(--COLOR-GRAY-LIGHT);
+  cursor: pointer;
+}
+
+.Model {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.modelContent {
+  background-color: white;
+  position: absolute;
+  height: 5rem;
+  width: 20rem;
+  padding: 1rem;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.modelContent input {
+  padding: 0.5rem;
+  border-radius: 4px 0px 0px 4px;
+  border: none;
+  background-color: lightgrey;
+}
+.modelContent input:focus-visible {
+  outline-color: rgb(3, 94, 13);
+}
+.modelContent button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  background-color: rgb(3, 94, 13);
+  color: white;
+}

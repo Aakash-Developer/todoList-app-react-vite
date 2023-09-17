@@ -1,0 +1,42 @@
+.task {
+  background-color: white;
+  border-radius: 4px;
+  min-height: 5rem;
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: ; */
+  justify-content: space-between !important;
+  margin-bottom: 0.5rem;
+}
+.bottomwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status {
+  font-size: small;
+  background-color: var(--COLOR-GRAY-LIGHT);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.PLANNED {
+  background-color: var(--COLOR-GRAY-LIGHT);
+}
+.ONGOING {
+  background-color: var(--COLOR-ONGOING);
+}
+.DONE {
+  background-color: var(--COLOR-DONE);
+}
+
+.deleteButton {
+  all: unset;
+  padding: 0.2rem 0.4rem;
+  background: rgb(205, 4, 4);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
